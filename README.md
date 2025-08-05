@@ -39,9 +39,9 @@ pip install pillow pandas pydub fpdf openpyxl python-docx docx2pdf PyPDF2
 
 2. Make sure FFmpeg is installed (for audio):
 
-  Download FFmpeg
+  - [Download FFmpeg](https://ffmpeg.org/download.html)
 
-  Add it to your system PATH
+  - Add it to your system PATH
 
 3. Run the app:
 
@@ -57,5 +57,6 @@ pyinstaller --onefile --windowed file_converter.py
 ```
 
 ## 🧱 Notes
-  🧪 Tested on Python 3.11 — not compatible with Python 3.13 due to missing audioop module.
-  🧰 Replace or refactor pydub audio conversion if you plan to use Python 3.13+
+  - 🧪 Tested on Python 3.11 — not compatible with Python 3.13 due to missing audioop module.
+    
+  - 🧰 Replace or refactor pydub audio conversion if you plan to use Python 3.13+
